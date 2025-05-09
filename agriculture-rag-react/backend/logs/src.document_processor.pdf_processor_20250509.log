@@ -1,0 +1,2 @@
+2025-05-09 21:55:34,423 - src.document_processor.pdf_processor - ERROR - Error processing PDF data\uploads\ABT_301_-_Plant_Bio_Technology_AGRIGNAN.pdf: mean must have 1 elements if it is an iterable, got 3
+2025-05-09 21:55:47,093 - src.document_processor.pdf_processor - ERROR - Error processing PDF data\uploads\ABT_301_-_Plant_Bio_Technology_AGRIGNAN.pdf: mean must have 1 elements if it is an iterable, got 3

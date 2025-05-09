@@ -1,0 +1,25 @@
+2025-05-09 14:33:55,581 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:34:13,817 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:37:58,438 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:38:15,596 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:44:46,466 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:45:42,151 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:45:59,967 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 14:52:37,661 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:04:38,213 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:04:53,147 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:08:44,739 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:09:04,119 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:09:26,097 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:10:42,477 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:12:24,344 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:14:12,065 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:14:26,490 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:51:06,640 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:51:20,748 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:54:59,894 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 15:55:18,818 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 21:50:20,443 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 21:50:43,880 - __main__ - WARNING - Could not load vector store, initializing empty
+2025-05-09 21:55:34,424 - __main__ - ERROR - Error processing document: mean must have 1 elements if it is an iterable, got 3
+2025-05-09 21:55:47,094 - __main__ - ERROR - Error processing document: mean must have 1 elements if it is an iterable, got 3

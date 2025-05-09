@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #8B5CF6;
+  --secondary-color: #6D28D9;
+  --background-color: #1E1B4B;
+  --chat-bg: #2E1065;
+  --border-color: #4C1D95;
+  --text-color: #F5F3FF;
+  --sidebar-bg: #1E1B4B;
+  --accent-color: #A78BFA;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Moving Dots Background */
+.moving-dots {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.15;
+}
+
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  animation: float 20s infinite linear;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.dot:nth-child(1) { top: 10%; left: 45%; animation-delay: 0s; }
+.dot:nth-child(2) { top: 20%; left: 65%; animation-delay: -4s; }
+.dot:nth-child(3) { top: 60%; left: 75%; animation-delay: -8s; }
+.dot:nth-child(4) { top: 80%; left: 35%; animation-delay: -12s; }
+.dot:nth-child(5) { top: 40%; left: 25%; animation-delay: -16s; }
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translate(100px, 50px) scale(1.5);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(50px, 100px) scale(1);
+    opacity: 0.3;
+  }
+  75% {
+    transform: translate(-50px, 50px) scale(1.5);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.3;
+  }
+}

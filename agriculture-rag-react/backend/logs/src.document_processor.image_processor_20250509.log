@@ -1,0 +1,25 @@
+2025-05-09 14:33:55,582 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:34:13,818 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:37:58,439 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:38:15,597 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:44:46,467 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:45:42,152 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:45:59,969 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 14:52:37,665 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:04:38,213 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:04:53,147 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:08:44,740 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:09:04,120 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:09:26,098 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:10:42,477 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:12:24,345 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:14:12,066 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:14:26,491 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:51:06,640 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:51:20,748 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:54:59,895 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 15:55:18,819 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 21:50:20,444 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 21:50:43,881 - src.document_processor.image_processor - INFO - Initializing BLIP model on cpu
+2025-05-09 21:55:34,423 - src.document_processor.image_processor - ERROR - Error processing image: mean must have 1 elements if it is an iterable, got 3
+2025-05-09 21:55:47,093 - src.document_processor.image_processor - ERROR - Error processing image: mean must have 1 elements if it is an iterable, got 3
