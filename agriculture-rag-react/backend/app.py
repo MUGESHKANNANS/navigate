@@ -173,10 +173,6 @@ def _corsify_response(response):
     response.headers.add("Access-Control-Allow-Credentials", "true")
     return response
 
-if __name__ == '__main__':
-    # Verify build directory
-    if not os.path.exists(app.static_folder):
-        logger.error(f"React build not found at {app.static_folder}")
-        logger.info("Run: cd frontend && npm run build")
-    
-    app.run(host='0.0.0.0', port=5000, debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Use Render's assigned port
+    app.run(host="0.0.0.0", port=port)        # Must listen on 0.0.0.0
