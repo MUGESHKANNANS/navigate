@@ -23,7 +23,7 @@ class Config:
     LLM_TIMEOUT = 30  # seconds
 
     # Embedding Models
-    TEXT_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+    TEXT_EMBEDDING_MODEL = "paraphrase-MiniLM-L3-v2"
     IMAGE_EMBEDDING_MODEL = "openai/clip-vit-base-patch32"
     
     # Vector Store
